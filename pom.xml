@@ -6,7 +6,7 @@
   <parent>
     <groupId>org.hudsonci.plugins</groupId>
     <artifactId>analysis-pom</artifactId>
-    <version>3.0.0-SNAPSHOT</version>
+    <version>3.0.0-M2-1</version>
     <relativePath>../analysis-pom/pom.xml</relativePath>
   </parent>
 
@@ -15,13 +15,17 @@
   <packaging>hpi</packaging>
   <name>Static Analysis Collector Plug-in</name>
   <version>1.28-SNAPSHOT</version>
-  <url>http://wiki.jenkins-ci.org/x/tgeIAg</url>
+  <url>https://wiki.hudson-ci.org/display/HUDSON/Analysis+Collector+Plugin</url>
 
   <description>
      This plug-in is an add-on for the plug-ins Checkstyle, Dry, FindBugs, PMD, Tasks, and Warnings:
      the plug-in collects the different analysis results and shows the results in a combined trend graph.
      Additionally, the plug-in provides health reporting and build stability based on these combined results.
   </description>
+
+  <properties>
+    <hudsonTags>recommended,report</hudsonTags>
+  </properties>
 
   <dependencies>
     <dependency>
@@ -73,9 +77,9 @@
   </dependencies>
 
   <scm>
-    <connection>scm:git:git://github.com/hudson-plugins/${project.artifactId}-plugin.git</connection>
-    <developerConnection>scm:git:git@github.com:hudson-plugins/${project.artifactId}-plugin.git</developerConnection>
-    <url>https://github.com/hudson-plugins/${project.artifactId}-plugin</url>
+    <connection>scm:git:git://github.com/hudson3-plugins/${project.artifactId}-plugin.git</connection>
+    <developerConnection>scm:git:git@github.com:hudson3-plugins/${project.artifactId}-plugin.git</developerConnection>
+    <url>https://github.com/hudson3-plugins/${project.artifactId}-plugin</url>
   </scm>
 
 </project>  
