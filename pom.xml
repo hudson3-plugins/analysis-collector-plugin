@@ -14,7 +14,7 @@
   <artifactId>analysis-collector</artifactId>
   <packaging>hpi</packaging>
   <name>Static Analysis Collector Plug-in</name>
-  <version>1.28-SNAPSHOT</version>
+  <version>1.28</version>
   <url>https://wiki.hudson-ci.org/display/HUDSON/Analysis+Collector+Plugin</url>
 
   <description>
